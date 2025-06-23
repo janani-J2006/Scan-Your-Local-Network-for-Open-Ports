@@ -13,3 +13,4 @@ Tools Used
 Imagine a house (your computer) has many doors (called ports). Some are open, and others are locked. Port scanning is like checking all the doors of all the houses in your street (your network) to see which ones are open. Open doors can let in guests (apps or services), but they can also let in thieves (hackers). So we check them to stay safe.
 
 
+![Screenshot_2025-06-23_09_20_05](https://github.com/user-attachments/assets/42d4c0aa-059c-425f-ad81-012339cbe019)
