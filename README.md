@@ -1,4 +1,4 @@
-[scan_results.txt](https://github.com/user-attachments/files/20867537/scan_results.txt)# Scan-Your-Local-Network-for-Open-Ports
+[scan_results.txt](https://github.com/user-attachments/files/20867634/scan_results.txt)[scan_results.txt](https://github.com/user-attachments/files/20867537/scan_results.txt)# Scan-Your-Local-Network-for-Open-Ports
 Local Network Port Scan (Using Kali Linux)
 **Task Objective**
 To scan the local network using Kali Linux and Nmap to discover devices and their open ports, and understand potential security risks.
@@ -45,11 +45,16 @@ This will:
 
 You can see it with:  cat scan_results.txt
 
-[Uploading scan_results.txt…]()
-
+## Results Summary
+- Scanned 256 IPs
+- Found 3 devices online
+- Detected open ports like:
+  - 53 (DNS)
+  - 22 (SSH)
+  - 80 (HTTP)
 
 **What Your Nmap Scan Found**
-You scanned: 192.168.162.0/24
+
 Nmap found 3 devices online:
 
  Device 1: 192.168.162.32 (Your Kali VM)
@@ -65,5 +70,16 @@ Port 22 open → SSH (remote login)
 
 Port 80 open → HTTP (web server)
 
-➡️ This could be a router, server, or someone hosting a website!
+This could be a router, server, or someone hosting a website!
+
+## What I Learned
+- How to find my IP range using `ip a`
+- How to do a SYN scan using Nmap
+- Risks of open ports like SSH or HTTP
+- Importance of firewalls and secure network settings
+
+
+## Files Included
+- `scan_results.txt` – full output of my Nmap scan
+
        
