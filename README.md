@@ -62,16 +62,24 @@ Nmap found 3 devices online:
  Port 53 open → DNS (Domain Name System)
  DNS is used to translate names (like google.com) to IPs.
 
-Device 2: 192.168.162.52
-No response on any ports
-It might have a firewall or is ignoring the scan (common in mobile devices).
+ Device 2: 192.168.162.52
+ No response on any ports
+ Port 22 (SSH) being open could mean remote login is possible. If left unprotected, an attacker could brute-force into this system. This shows why open ports should be secured with firewalls or key-based      
+ authentication
 
-Device 3: 192.168.162.30
-Port 22 open → SSH (remote login)
+ Device 3: 192.168.162.30
+ Port 22 open → SSH (remote login)
 
-Port 80 open → HTTP (web server)
+ Port 80 open → HTTP (web server)
+ This could be a router, server, or someone hosting a website!
 
-This could be a router, server, or someone hosting a website!
+ To secure this network, I would suggest:
+
+                       Disabling unused ports (like SSH if not needed)
+
+                       Enabling firewall rules
+
+                       Changing default passwords on router
 
 ## What I Learned
 - How to find my IP range using `ip a`
