@@ -30,7 +30,8 @@ Imagine a house (your computer) has many doors (called ports). Some are open, an
 
   In Kali terminal, run:
 
-![Screenshot_2025-06-23_09_20_31](https://github.com/user-attachments/assets/3ce9b03b-0113-4a0e-8d87-15987c9bbb42)
+![Screenshot_2025-06-23_09_20_44](https://github.com/user-attachments/assets/89c7ad40-e224-4a2e-8cee-4bf3ef766d95)
+
 
 This will:
         Go to every device in your network.
@@ -42,7 +43,8 @@ This will:
        Read the Results 
        After the scan, you’ll see results 
        Save the Scan Results
-![Screenshot_2025-06-23_09_20_44](https://github.com/user-attachments/assets/df35e033-348a-4269-96b3-a002b995f7da)
+
+![Screenshot_2025-06-23_09_21_08](https://github.com/user-attachments/assets/7fe1d3c0-d112-4363-8f58-b2e17f033019)
 
 You can see it with:  cat scan_results.txt
 
