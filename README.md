@@ -1,4 +1,5 @@
-[scan_results.txt](https://github.com/user-attachments/files/20867634/scan_results.txt)[scan_results.txt](https://github.com/user-attachments/files/20867537/scan_results.txt)# Scan-Your-Local-Network-for-Open-Ports
+# Scan-Your-Local-Network-for-Open-Ports
+
 Local Network Port Scan (Using Kali Linux)
 **Task Objective**
 To scan the local network using Kali Linux and Nmap to discover devices and their open ports, and understand potential security risks.
